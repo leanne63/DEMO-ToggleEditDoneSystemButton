@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D58E2A981FD8C06900CFD849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58E2A971FD8C06900CFD849 /* AppDelegate.swift */; };
+		D58E2A9D1FD8C06900CFD849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58E2A9B1FD8C06900CFD849 /* Main.storyboard */; };
+		D58E2A9F1FD8C06900CFD849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58E2A9E1FD8C06900CFD849 /* Assets.xcassets */; };
+		D58E2AA21FD8C06900CFD849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58E2AA01FD8C06900CFD849 /* LaunchScreen.storyboard */; };
+		D5E390321FD9B57800AB13BF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E390311FD9B57800AB13BF /* TableViewController.swift */; };
+		D5E390341FDB02AF00AB13BF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D5E390331FDB02AF00AB13BF /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D58E2A941FD8C06900CFD849 /* DEMO-ToggleEditDoneSystemButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEMO-ToggleEditDoneSystemButton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58E2A971FD8C06900CFD849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D58E2A9C1FD8C06900CFD849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D58E2A9E1FD8C06900CFD849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D58E2AA11FD8C06900CFD849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D58E2AA31FD8C06900CFD849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E390311FD9B57800AB13BF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D5E390331FDB02AF00AB13BF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D58E2A911FD8C06900CFD849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D58E2A8B1FD8C06900CFD849 = {
+			isa = PBXGroup;
+			children = (
+				D5E390331FDB02AF00AB13BF /* README.md */,
+				D58E2A961FD8C06900CFD849 /* DEMO-ToggleEditDoneSystemButton */,
+				D58E2A951FD8C06900CFD849 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D58E2A951FD8C06900CFD849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D58E2A941FD8C06900CFD849 /* DEMO-ToggleEditDoneSystemButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D58E2A961FD8C06900CFD849 /* DEMO-ToggleEditDoneSystemButton */ = {
+			isa = PBXGroup;
+			children = (
+				D58E2A971FD8C06900CFD849 /* AppDelegate.swift */,
+				D5E390311FD9B57800AB13BF /* TableViewController.swift */,
+				D58E2A9B1FD8C06900CFD849 /* Main.storyboard */,
+				D58E2A9E1FD8C06900CFD849 /* Assets.xcassets */,
+				D58E2AA01FD8C06900CFD849 /* LaunchScreen.storyboard */,
+				D58E2AA31FD8C06900CFD849 /* Info.plist */,
+			);
+			path = "DEMO-ToggleEditDoneSystemButton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D58E2A931FD8C06900CFD849 /* DEMO-ToggleEditDoneSystemButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58E2AA61FD8C06900CFD849 /* Build configuration list for PBXNativeTarget "DEMO-ToggleEditDoneSystemButton" */;
+			buildPhases = (
+				D58E2A901FD8C06900CFD849 /* Sources */,
+				D58E2A911FD8C06900CFD849 /* Frameworks */,
+				D58E2A921FD8C06900CFD849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DEMO-ToggleEditDoneSystemButton";
+			productName = "TEST-SystemButtonDimmed";
+			productReference = D58E2A941FD8C06900CFD849 /* DEMO-ToggleEditDoneSystemButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D58E2A8C1FD8C06900CFD849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = leanne;
+				TargetAttributes = {
+					D58E2A931FD8C06900CFD849 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D58E2A8F1FD8C06900CFD849 /* Build configuration list for PBXProject "DEMO-ToggleEditDoneSystemButton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D58E2A8B1FD8C06900CFD849;
+			productRefGroup = D58E2A951FD8C06900CFD849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D58E2A931FD8C06900CFD849 /* DEMO-ToggleEditDoneSystemButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D58E2A921FD8C06900CFD849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58E2AA21FD8C06900CFD849 /* LaunchScreen.storyboard in Resources */,
+				D58E2A9F1FD8C06900CFD849 /* Assets.xcassets in Resources */,
+				D5E390341FDB02AF00AB13BF /* README.md in Resources */,
+				D58E2A9D1FD8C06900CFD849 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D58E2A901FD8C06900CFD849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E390321FD9B57800AB13BF /* TableViewController.swift in Sources */,
+				D58E2A981FD8C06900CFD849 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D58E2A9B1FD8C06900CFD849 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58E2A9C1FD8C06900CFD849 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D58E2AA01FD8C06900CFD849 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58E2AA11FD8C06900CFD849 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D58E2AA41FD8C06900CFD849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D58E2AA51FD8C06900CFD849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D58E2AA71FD8C06900CFD849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFAADJH9JJ;
+				INFOPLIST_FILE = "DEMO-ToggleEditDoneSystemButton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leanne63.DEMO-ToggleEditDoneSystemButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D58E2AA81FD8C06900CFD849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFAADJH9JJ;
+				INFOPLIST_FILE = "DEMO-ToggleEditDoneSystemButton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leanne63.DEMO-ToggleEditDoneSystemButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D58E2A8F1FD8C06900CFD849 /* Build configuration list for PBXProject "DEMO-ToggleEditDoneSystemButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58E2AA41FD8C06900CFD849 /* Debug */,
+				D58E2AA51FD8C06900CFD849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58E2AA61FD8C06900CFD849 /* Build configuration list for PBXNativeTarget "DEMO-ToggleEditDoneSystemButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58E2AA71FD8C06900CFD849 /* Debug */,
+				D58E2AA81FD8C06900CFD849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D58E2A8C1FD8C06900CFD849 /* Project object */;
+}
